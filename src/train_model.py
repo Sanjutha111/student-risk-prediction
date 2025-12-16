@@ -32,7 +32,7 @@ def main():
     with open("models/random_forest_model.pkl", "wb") as f:
         pickle.dump(model, f)
 
-    print("✅ Model saved to models/random_forest_model.pkl")
+    print(" Model saved to models/random_forest_model.pkl")
 
 if __name__ == "__main__":
     main()
