@@ -27,7 +27,7 @@ def main():
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     df.to_csv(OUTPUT_PATH, index=False)
 
-    print("✅ Model-ready data saved to:", OUTPUT_PATH)
+    print("-----Model-ready data saved to:", OUTPUT_PATH)
 
 if __name__ == "__main__":
     main()
